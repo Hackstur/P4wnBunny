@@ -18,6 +18,9 @@
 
 Its a bash script who you can import on your payloads or in environment in order to make duckyscript work.
 
+By now this is a POC. The payloads im testing are working with minimal modifications, but i need do more work around to emulate the BashBunny workflow.
+
+NOTE: I do not have a phisical BashBunny, so all i do its thinking about get the same things with HIDScript+Bash
 
 <!-- TABLE OF CONTENTS -->
 
@@ -71,10 +74,14 @@ I would love to have a great list of features and make one section for it, but i
 
 ## 🏭 Installation
 1. Download/Fork/Copy/Get this repository.
+1. Edit the p4wnbunny vars in p4wnbunny.sh
+    1. **_configfile_path** = path to config.txt
+    1. **_extensions_path** = path to extensions folder
+    1. **_bunny_image** = name of the image.bin to launch in ATTACKMODE STORAGE
 1. Import p4wnbunny.sh at start of your payload.txt
 1. Run it with "bash payload.txt"
 
-Alternatively you can add "BASH_ENV=/path_to/p4wnbunny.sh" on your /etc/environment file in order to integrate with all system bash.
+Alternatively you can add "BASH_ENV=/path_to/p4wnbunny.sh" on your /etc/environment file in order to integrate with all system bash. In that way you dont need to import nothing on payloads, but may make fail other bash scripts if use the same function or var names.
 
 #### Requirements  
 * P4wnP1 A.L.O.A.: https://github.com/RoganDawes/P4wnP1_aloa
