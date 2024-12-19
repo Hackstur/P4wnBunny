@@ -19,8 +19,6 @@
 Its a bash script who you can import on your payloads or in environment in order to make duckyscript work.
 
 
-<img align="right" float="left" src="http://via.placeholder.com/400x200?text=d.^_^.b"/>
-
 <!-- TABLE OF CONTENTS -->
 
 <details><summary>📑 Table of Contents(click to expand)</summary><p>
